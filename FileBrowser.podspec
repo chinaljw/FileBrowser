@@ -25,7 +25,7 @@ Pod::Spec.new do |s|
   s.license          = 'MIT'
   s.author           = { "Roy Marmelstein" => "marmelroy@gmail.com" }
   s.source           = { :git => "https://github.com/chinaljw/FileBrowser.git", :tag => s.version.to_s, :submodules => true}
-  s.social_media_url   = "http://twitter.com/marmelroy"
+  # s.social_media_url   = "http://twitter.com/marmelroy"
 
   s.ios.deployment_target = '8.0'
   s.requires_arc = true
