@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "FileBrowser"
-  s.version          = "1.0.0"
+  s.version          = "1.0.0.ljw"
   s.summary          = "Powerful iOS file browser in Swift."
 
 # This description is used to generate tags and improve search results.
@@ -20,7 +20,7 @@ Pod::Spec.new do |s|
                       A Swift file browser for iOS. Supports QuickLook, search and 3D touch.
                      DESC
 
-  s.homepage         = "https://github.com/marmelroy/FileBrowser"
+  s.homepage         = "https://github.com/chinaljw/FileBrowser"
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = 'MIT'
   s.author           = { "Roy Marmelstein" => "marmelroy@gmail.com" }
@@ -32,7 +32,7 @@ Pod::Spec.new do |s|
 
   s.source_files = "FileBrowser"
   s.resources = "FileBrowser/Resources/*.*"
-  s.pod_target_xcconfig = { 'SWIFT_VERSION' => '4.0' }
+  s.pod_target_xcconfig = { 'SWIFT_VERSION' => '4.2' }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   s.frameworks = 'QuickLook', 'WebKit'
